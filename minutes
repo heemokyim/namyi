@@ -1,0 +1,136 @@
+  
+  <11/16>
+   - 1x1 conv , max pooling
+   - NN 모델을 가지고 총 연산량을 예측 가능한지??
+   - 각 operation 들을 측정하기 위한 방법 논의
+ 
+   1) 1x1 convolution layer를 사용하는 이유는?
+       →   https://www.youtube.com/watch?v=qVP574skyuM
+   2) 엔트로피 정의 공식에 마이너스( - ) 가 붙는 이유는?
+       →  https://ko.wikipedia.org/wiki/%EC%A0%95%EB%B3%B4_%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BC 
+  
+  multiple object recognition 
+  
+   <11/21>
+    - R-CNN : https://www.youtube.com/watch?v=kcPAGIgBGRs
+   - YOLO:  https://www.youtube.com/watch?v=eTDcoeqj1_w
+   - Densely Connected Convolutional Networks : http://youtube.com/watch?v=fe2Vn0mwALI
+  
+    1) Alex Net에서 7 CNN ensemble 을 사용하는 이유는?
+    2) Conv 2개를 사용하는 이유는?  
+          → 3x3 2개를 쌓으면 5x5 와 동일한 성능을 가짐
+    3) GoogleNet의 혁신성은 무엇인가?
+          → 다양한 filter를 parallel 하게 배치함.
+   
+   Captcha detection. & Batch
+  normalization 에 대한 설명
+  
+  
+  <11/23>
+   
+  1.    CNN architecture에서 각각의 layer에서 ops 와 param 의 계산법
+  2.    Samsung 내부 자료 공유
+              
+  a) Compressing CNN for Mobile Device 삼성전자 김용덕 박사 =>     PPT 자료
+              
+  b) Multiple Object Class Detection 삼성전자 이한성 수석 =>     PPT 자료
+              
+  c) Recent Advances in Recurrent Neural Networks  최희열 박사 삼성종합기술원  => PPT 자료
+    3. Captcha 에 대한 내용
+  
+  1) batch normalization ?
+       → Activation function 에 들어가기 전에 whitening 하는 것
+  2) conv layer 2개를 사용하는 이유는 ?
+       →  feature를 좀 더 명확히 하기 위함.
+  3) loss function 으로 경우에 따라서 MSE(Mean Squared Error),
+  CEE(Cross Entropy Error)를 각각 사용하는 이유는 ?
+       → CEE가 MSE에 비해 training 이 훨씬 잘 되고 성능은  MSE와 거의 동일하기 때문
+  
+  
+  Captcha , entropy
+    
+  <11/28>
+  
+  
+  1. Cross Entropy 공식 유도 ( K-L divergence)
+  
+  
+  
+  중간 정검 ( 지금까지 한 것들을 code base 로 돌려보기)
+  
+ 
+ 
+  
+  <11/30>
+  
+  
+    1.  Gradient Descent Optimization Algorithms  : 
+  Momentum, NAG, Adagrad, RMSProp, AdaDelta, ADAM
+    2.  Tensor flow code review
+  
+  
+  1) No Free Lunch Theorem 이란??
+       → 특정한 문제에 최적화된 알고리즘은 다른 문제에서는 그렇지 않다는 것을 수학적으로 증명한 정리(https://en.wikipedia.org/wiki/No_free_lunch_theorem)
+  
+  
+  
+  Chapcha , Deep dream 등의 Tensorflow code review
+  
+ 
+ 
+  
+  12/06
+  
+  
+  1.    No Free Lunch Theorem
+  2.    Deep Dream 의 Python 코드 리뷰 (numpy,scipy. matplotlab,
+  scikit-learn, senborn , pandas)
+  3.    uGB 서버 data를 활용한 NN 모델 가능성에 대한 논의
+  
+  
+  
+  DSschool 6~7절, 10절 Hvass 1, 2, 3
+  통계 관련 lecture, python 등의 funtion ,추후에 ReNet, caffe 을 공부
+   Last project : wavenet 
+  
+ 
+ 
+  
+  12/12
+  
+  
+  1. 가칭 Micro Benchmark 논의
+  2. argmax
+  3. Ground truth (  gold standard) 
+  
+  
+  
+  
+  Hvass 코드 review,Data science page PDF 로 review
+   
+  Jan,18 : GAN ,WaveNet
+  Feb,18: R.L
+  
+ 
+ 
+  
+  12/14
+  
+  
+  1.    Android O mr1 진행사항 논의 
+  2.    Data science 자료 16~19절, 23~25절, 33~35절
+  3.    Hvass code 1
+  
+  
+  1.    what is linspace, range , xrange,
+  arange? 
+  
+  
+  1.    Hvass code 2, 3
+  2.    Micro Benchmark
+  
+ 
+
+
+ 
+
