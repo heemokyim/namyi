@@ -31,10 +31,8 @@
   1.    CNN architecture에서 각각의 layer에서 ops 와 param 의 계산법
   2.    Samsung 내부 자료 공유
               
-  a) Compressing CNN for Mobile Device 삼성전자 김용덕 박사 =>     PPT 자료
-              
+  a) Compressing CNN for Mobile Device 삼성전자 김용덕 박사 =>     PPT 자료             
   b) Multiple Object Class Detection 삼성전자 이한성 수석 =>     PPT 자료
-              
   c) Recent Advances in Recurrent Neural Networks  최희열 박사 삼성종합기술원  => PPT 자료
     3. Captcha 에 대한 내용
   
@@ -46,81 +44,53 @@
   CEE(Cross Entropy Error)를 각각 사용하는 이유는 ?
        → CEE가 MSE에 비해 training 이 훨씬 잘 되고 성능은  MSE와 거의 동일하기 때문
   
-  
   Captcha , entropy
     
   <11/28>
-  
-  
+ 
   1. Cross Entropy 공식 유도 ( K-L divergence)
-  
-  
-  
+   
   중간 정검 ( 지금까지 한 것들을 code base 로 돌려보기)
-  
- 
- 
-  
+   
   <11/30>
-  
-  
+   
     1.  Gradient Descent Optimization Algorithms  : 
   Momentum, NAG, Adagrad, RMSProp, AdaDelta, ADAM
     2.  Tensor flow code review
-  
-  
+   
   1) No Free Lunch Theorem 이란??
        → 특정한 문제에 최적화된 알고리즘은 다른 문제에서는 그렇지 않다는 것을 수학적으로 증명한 정리(https://en.wikipedia.org/wiki/No_free_lunch_theorem)
   
-  
-  
   Chapcha , Deep dream 등의 Tensorflow code review
   
- 
- 
-  
-  12/06
-  
+
+  <12/06>
   
   1.    No Free Lunch Theorem
   2.    Deep Dream 의 Python 코드 리뷰 (numpy,scipy. matplotlab,
   scikit-learn, senborn , pandas)
   3.    uGB 서버 data를 활용한 NN 모델 가능성에 대한 논의
   
-  
-  
   DSschool 6~7절, 10절 Hvass 1, 2, 3
   통계 관련 lecture, python 등의 funtion ,추후에 ReNet, caffe 을 공부
    Last project : wavenet 
   
- 
- 
-  
-  12/12
-  
+  <12/12>
   
   1. 가칭 Micro Benchmark 논의
   2. argmax
   3. Ground truth (  gold standard) 
-  
-  
-  
-  
+   
   Hvass 코드 review,Data science page PDF 로 review
    
   Jan,18 : GAN ,WaveNet
   Feb,18: R.L
-  
- 
- 
-  
-  12/14
-  
-  
+   
+  <12/14>
+   
   1.    Android O mr1 진행사항 논의 
   2.    Data science 자료 16~19절, 23~25절, 33~35절
   3.    Hvass code 1
-  
   
   1.    what is linspace, range , xrange,
   arange? 
@@ -128,9 +98,4 @@
   
   1.    Hvass code 2, 3
   2.    Micro Benchmark
-  
  
-
-
- 
-
