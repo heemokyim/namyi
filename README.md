@@ -1,6 +1,6 @@
 # namyi
 
-<Nvidia Multi GPU>
+- Nvidia Multi GPU -
   https://developer.nvidia.com/nccl
 
 
