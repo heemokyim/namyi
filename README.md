@@ -1,4 +1,9 @@
 # namyi
+
+<Nvidia Multi GPU>
+  https://developer.nvidia.com/nccl
+
+
 <DeepDream>    
 - https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/tutorials/deepdream    
 - https://github.com/chiphuyen/stanford-tensorflow-tutorials/tree/master/examples/deepdream    
