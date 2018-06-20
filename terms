@@ -18,3 +18,18 @@
   Σ                https://en.wiktionary.org/wiki/%CE%A3
  
 
+
+
+  Library 
+ 
+  numpy         array , linear   algebra    -Can`t run on GPU   https://en.wikipedia.org/wiki/NumPy
+  matplotlib    plot , 그림그리기    https://en.wikipedia.org/wiki/Matplotlib
+  pandas        DataFrame , Time series  엑셀 , array   https://en.wikipedia.org/wiki/Pandas_(software)
+  scipy         Scientific  ,  computation,    singular , image processing
+  seaborn       통계 
+  statmodel     modeling 　
+  pickle        python serialization   https://en.wikipedia.org/wiki/Serialization#Pickle
+  scikit-learn  ML
+  PIL           Python Imaging Library  http://www.pythonware.com/products/pil/
+ 
+
