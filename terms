@@ -1,0 +1,20 @@
+알고리즘 수식 용어
+
+  φ                전처리
+  θ                weight, my network
+  ^                prediction
+  τ                discount gamma
+  r                reward 
+  Q*               Optimal Q 
+  argmax(f(x))     f(x)를 최대로 만드는 x값을 구함 
+  π                policy
+  μ                the mean or expectation of the distribution (and also its median and mode). 평균  보통 0
+  σ                standard  deviation(표준편차)  보통 1
+  η                step size
+  parameter        W,b 등을 말함 
+  hyper parameter  W,b 를 제어하는 모든 것 (ex. Learning rate , epoch  회수, hidden later)
+  epoch,batch size    Dataset : 100,    Batch size: 10 ,     10번의 iterarion 을 하면 1회 epoch 를 한것임
+  П                반복시행              f(x 1 ,x 2 ,x 3 ,⋯,x N )=∏ i=1 N    f(x i )   https://en.wiktionary.org/wiki/%CE%A0
+  Σ                https://en.wiktionary.org/wiki/%CE%A3
+ 
+
