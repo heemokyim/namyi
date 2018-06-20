@@ -33,3 +33,33 @@
   PIL           Python Imaging Library  http://www.pythonware.com/products/pil/
  
 
+
+
+ 
+ 
+  Scipy 
+  
+  이산          bernoulli    베르누이 분포 
+  이산          binom        이항분포
+  연속          uniform      균일분포 
+  연속          norm         가우시안분포   sp.stats.norm() 
+  연속          beta         베타분포
+  연속          gamma        감마분포 
+  연속          t            스튜던트t분포
+  연속          chi2         카이제곱분포
+  연속          f            F 분포
+  연속          dirichlet    디리클리분포
+  연속          multivariate_normal   다변수 가우시안 정규분포
+  모수지정      loc          일반적으로 분포의 기댓값
+               scale        일반적으로 분포의 표준편차
+               size         샘플 생성시 생성될 샘플의 크기 
+               random_state 샘플 생성시 사용되는 시드(seed)값
+  확률 분포 메서드 pdf       확률 밀도 함수 (probability density function)
+                  pmf       확률 질량 함수 (probability mass function)
+                  cdf       누적 분포 함수 (cumulative  distribution function)
+                  rvs       랜덤 샘플 생성 (random variable sampling)
+                  stats     기술 통계 함수 (descriptive statistics)
+                  fit       모수 추정 (parameter estimation)
+                  scipy.misc.imread   Read an image from a  file as an array. 　
+                  scipy.misc.imresize 
+
